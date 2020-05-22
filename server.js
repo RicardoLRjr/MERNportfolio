@@ -14,6 +14,7 @@ app.get("/api/config", (req, res) => {
     success: true,
   });
 });
+app.use(express.static('client/build'));
 express.static(path.join(__dirname, '../client/build'))
 
 app.get('*', (req, res) => {
