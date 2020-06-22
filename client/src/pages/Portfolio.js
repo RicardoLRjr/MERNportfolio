@@ -10,9 +10,9 @@ const Portfolio = () => {
         <article className="block">
           <h1 className="block-header">Portfolio</h1>
           <div class="row">
-          <Project name="FriendlyFire" 
+          <Project name="FriendOps" 
         src="assets/imgs/FFscreenshot.png"
-         deployURL="https://secure-tor-59417.herokuapp.com/" 
+         deployURL="http://www.friendops.com//" 
           repoURL="https://github.com/RicardoLRjr/FriendlyFire" />
         <Project
         name="PokeTeam Manager"
